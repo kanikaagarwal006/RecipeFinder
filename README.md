@@ -5,11 +5,10 @@ Discover Authentic Indian Flavors & Global Gems
 
 <p align="center"> <strong>A fully responsive, zero-dependency recipe discovery web application powered by TheMealDB REST API.</strong> <br /> Search by ingredient, explore cuisines from around the world, discover authentic Indian recipes, and follow step-by-step cooking instructions with embedded video tutorials. </p>
 
-<p align="center"> 🌐 <a href="https://kanikaagarwal006.github.io/REPO-NAME">Live Demo</a> &nbsp;•&nbsp; 🐛 <a href="https://github.com/kanikaagarwal006/REPO-NAME/issues">Report a Bug</a> &nbsp;•&nbsp; ✨ <a href="https://github.com/kanikaagarwal006/REPO-NAME/issues">Request a Feature</a> </p>
+<p align="center"> 🌐 <a href="https://kanikaagarwal006.github.io/RecipeFinder/">Live Demo</a> &nbsp;•&nbsp; 🐛 <a href="https://github.com/kanikaagarwal006/RecipeFinder/issues">Report a Bug</a> &nbsp;•&nbsp; ✨ <a href="https://github.com/kanikaagarwal006/RecipeFinder/issues">Request a Feature</a> </p>
 
 📑 Table of Contents
 
-📸 Screenshots
 ✨ Features
 🛠️ Tech Stack
 🏗️ How It Works
@@ -22,29 +21,9 @@ Discover Authentic Indian Flavors & Global Gems
 🔮 Future Enhancements
 👩‍💻 Author
 📄 License
-📸 Screenshots
-
-🏠 Homepage — Search & Discover
-
-Explore delicious recipes with ingredient search, cuisine filters, and quick ingredient shortcuts.
-
-!Spice Route Homepage
-
-📋 Recipe Details — Ingredients & Instructions
-
-View complete ingredient lists, cooking measurements, step-by-step instructions, and video tutorials.
-
-!Recipe Detail Modal
-
-📱 Fully Responsive Mobile View
-
-Enjoy a seamless recipe discovery experience across desktops, tablets, and smartphones.
-
-!Mobile Responsive View
-
 ✨ Features
 
-Spice Route brings together everything you need to discover your next favorite meal.
+Spice Route brings together everything you need to discover your next favorite meal!
 
 
 Feature	Description
@@ -175,22 +154,20 @@ filter.php?i=	Filter recipes by ingredient
 filter.php?a=Indian	Retrieve Indian recipe summaries
 lookup.php?i=	Retrieve complete recipe details
 random.php	Fetch a random recipe
-🔗 API Documentation: https://www.themealdb.com/api.php
+🔗 API Documentation: TheMealDB API
 
 📂 Project Structure
 
 
 text
-recipe-finder-app/
+RecipeFinder/
 │
 ├── index.html       # Application structure and modal skeleton
 ├── style.css        # Styling, layouts, animations and responsive design
 ├── script.js        # API integration, caching and application logic
 ├── README.md        # Project documentation
 │
-├── spiceroute_home.png
-├── spiceroute_modal.png
-└── spiceroute_mobile.png
+└── LICENSE          # MIT License (if included)
 🚀 Getting Started
 
 Want to run Spice Route locally? Follow these simple steps.
@@ -203,12 +180,12 @@ Python 3 (recommended for running a local server), or VS Code with Live Server.
 
 
 bash
-git clone https://github.com/kanikaagarwal006/REPO-NAME.git
+git clone https://github.com/kanikaagarwal006/RecipeFinder.git
 2. Navigate to the Project Directory
 
 
 bash
-cd REPO-NAME
+cd RecipeFinder
 3. Run the Application
 
 Option 1: Open Directly
@@ -234,39 +211,46 @@ Right-click index.html.
 Select Open with Live Server.
 🌐 Deployment
 
-Spice Route can be deployed for free using GitHub Pages.
+Spice Route is deployed using GitHub Pages, providing free static website hosting.
 
-Step 1: Initialize Git
+Deploy Your Own Version
+
+Step 1: Clone the Repository
+
+
+bash
+git clone https://github.com/kanikaagarwal006/RecipeFinder.git
+Step 2: Navigate to the Project
+
+
+bash
+cd RecipeFinder
+Step 3: Initialize Git (if needed)
 
 
 bash
 git init
-Step 2: Add Project Files
+Step 4: Add Project Files
 
 
 bash
 git add .
-Step 3: Commit Changes
+Step 5: Commit Changes
 
 
 bash
-git commit -m "🍛 Initial commit - Spice Route"
-Step 4: Set Main Branch
+git commit -m "Update Spice Route"
+Step 6: Set Main Branch
 
 
 bash
 git branch -M main
-Step 5: Connect GitHub Repository
+Step 7: Push Your Code
 
 
 bash
-git remote add origin https://github.com/YOUR-USERNAME/REPO-NAME.git
-Step 6: Push Your Code
-
-
-bash
-git push -u origin main
-Step 7: Enable GitHub Pages
+git push origin main
+Enable GitHub Pages
 
 Open your GitHub repository.
 Navigate to Settings → Pages.
@@ -274,11 +258,12 @@ Under Build and deployment, select Deploy from a branch.
 Choose the main branch.
 Select / (root) as the folder.
 Click Save.
-🎉 Your application will be available at:
+Wait for the GitHub Pages deployment workflow to complete successfully.
 
+🎉 Live Website:
 
-text
-https://YOUR-USERNAME.github.io/REPO-NAME/
+https://kanikaagarwal006.github.io/RecipeFinder/
+
 🎨 Design Highlights
 
 Spice Route combines a warm, Indian-inspired color palette with a modern and responsive interface.
@@ -337,7 +322,7 @@ Passionate about building interactive, user-friendly web applications using mode
 
 This project is open source and available under the MIT License.
 
-See the LICENSE file for more details.
+See the LICENSE file for more details if included in the repository.
 
 Recipe data is provided by TheMealDB. Please respect their terms of use.
 
